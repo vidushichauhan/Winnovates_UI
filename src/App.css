@@ -1,38 +1,103 @@
-.App {
+/* App.js Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+ 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ 
+.chatbox-container {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+ 
+.chatbox-header {
+  background-color: #0076CE;
+  color: #ffffff;
+  padding: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+.chatbox-body {
+  height: 400px;
+  overflow-y: auto;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ 
+.message {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+.user {
+  background-color: #f0f0f0;
+  text-align: right;
+}
+ 
+.bot {
+  background-color: #b0e57c;
+}
+ 
+.user-input {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+ 
+.user-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+ 
+.user-input button {
+  padding: 8px 15px;
+  background-color: #0076CE;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+h1 {
+  text-align: center;
+  color: #0076CE;
+  margin-bottom: 5px;
+}
+.center {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 60vh; /* Reduce the height to create less space */
 }
-
-.App-link {
-  color: #61dafb;
+.App {
+  text-align: center;
+  padding-top: 20px; /* Add some padding at the top */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ 
+.logo-image {
+  width: 100px; /* Adjust the width and height as needed */
+  height: 100px;
+  /* Add any other styling for the logo image, e.g., border, shadow, etc. */
 }

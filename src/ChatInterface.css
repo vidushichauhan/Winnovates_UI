@@ -1,0 +1,60 @@
+/* Chatbox Styles */
+.chat-container {
+  width: 50%; /* Adjust width to 100% for mobile */
+  max-height: 300px; /* Limit the maximum height for mobile */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column; /* Display messages in a column layout */
+}
+
+.chatbox {
+  padding: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column; /* Display messages in a column layout */
+}
+
+.message {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px; /* Increase the border radius for a more rounded look */
+  max-width: 70%; /* Limit the maximum width of the messages to 70% of the container */
+  word-wrap: break-word; /* Wrap long messages to the next line */
+}
+
+.user {
+  background-color: #dcf8c6; /* Light green for user messages */
+  align-self: flex-end; /* Align user messages to the right */
+}
+
+.bot {
+  background-color: #4FC3F7; /* Light gray background for bot messages */
+  color: #333; /* Text color for bot messages */
+  align-self: flex-start; /* Align bot messages to the left */
+}
+
+/* User Input Styles */
+.user-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.user-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.user-input button {
+  padding: 8px 15px;
+  background-color: #0076CE;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

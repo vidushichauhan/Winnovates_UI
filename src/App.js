@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import ChatInterface from './ChatInterface';
+ 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="logo-container">
+        <img src="/logo.png" alt="Your Logo" className="logo-image" />
+      </div>
+      <div><h1>Employee Buddy</h1></div>
+      <div className="center">
+        <ChatInterface />
+      </div>
     </div>
   );
 }
-
+ 
 export default App;
+ 
