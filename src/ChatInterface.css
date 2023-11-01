@@ -1,4 +1,7 @@
 /* Chatbox Styles */
+
+
+
 .chat-container {
   width: 50%; /* Adjust width to 100% for mobile */
   max-height: 300px; /* Limit the maximum height for mobile */
@@ -57,4 +60,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+.bot-background {
+  background-color: rgb(245, 246, 247);
 }
