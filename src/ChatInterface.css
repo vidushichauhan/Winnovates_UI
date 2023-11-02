@@ -63,6 +63,17 @@
 }
 
 
-.bot-background {
+.bot-text {
   background-color: rgb(245, 246, 247);
+  overflow-wrap: break-word;
+    /* display: block; */
+  max-width: 90%;
+  text-align: left;
+}
+
+.user-text {
+  overflow-wrap: break-word;
+    /* display: block; */
+  max-width: 90%;
+  text-align: right;
 }

@@ -60,13 +60,13 @@ const ChatInterface = () => {
       image: 'ava4-bg.webp',
       backgroundColor: '',
       cardStyle: 'd-flex flex-row justify-content-start',
-      bubbleStyle: 'small p-2 ms-3 mb-1  rounded-3 bot-background'
+      bubbleStyle: 'small p-2 ms-3 mb-1  rounded-3 bot-text'
     },
     user: {
       image: 'ava3-bg.webp',
       backgroundColor: '',
       cardStyle: 'd-flex flex-row justify-content-end mb-4 pt-1',
-      bubbleStyle: 'small p-2 me-3 mb-1 rounded-3 text-white rounded-3 bg-primary'
+      bubbleStyle: 'small p-2 me-3 mb-1 rounded-3 text-white rounded-3 bg-primary user-text'
     }
   };
 
