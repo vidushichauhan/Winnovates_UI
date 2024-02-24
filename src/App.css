@@ -83,6 +83,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #cfc9c9;
+  background-image: url("/public/test6.jpg");
   /*height: 60vh; /* Reduce the height to create less space */
 }
 .App {
